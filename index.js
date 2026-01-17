@@ -23,9 +23,6 @@ import { antiSpam } from "./antiSpam.js";
 
 
 
-const LOG_CHANNEL_ID = Number(process.env.LOG_CHANNEL_ID || 0);
-const START_PHOTO_URL = process.env.START_PHOTO_URL || null;
-const SUPPORT_CHANNEL_URL = process.env.SUPPORT_CHANNEL_URL || null;
 
 function randEmoji() {
   const emojis = ["✨","🔥","😄","💖","⚡","🥳","🌸","😎","🫶","💫","😺","🎉","🍀","🧠","🤖"];
